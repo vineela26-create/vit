@@ -1,0 +1,146 @@
+/* Wrapper handles full screen */
+.auth-page-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  box-sizing: border-box;
+}
+
+/* Card */
+.auth-card {
+  width: 380px;
+  max-width: 90%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tabs */
+.tab-buttons {
+  display: flex;
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.tab-buttons .active {
+  background: #1a5694;
+  color: #fff;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-size: 14px;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #1a5694;
+  background: #fff;
+}
+
+/* Role */
+.role-box {
+  display: flex;
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.role-box button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #e2e8f0;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.role-box .active-role {
+  border-color: #1a5694;
+  background: #ebf4ff;
+  color: #1a5694;
+}
+
+/* Main button */
+.main-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #1a5694;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background: #134171;
+}
+
+/* Divider */
+.divider {
+  margin: 20px 0 10px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+/* Google button */
+/* Google Sign-in */
+.google-btn {
+  width: 100%;
+  padding: 10px 14px;        /* ⬅ smaller height */
+  border-radius: 10px;       /* ⬅ slightly less rounded */
+  border: 1px solid #cbd5e0;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;           /* ⬅ smaller text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;                  /* ⬅ tighter spacing */
+}
+
+.google-btn img {
+  width: 18px;               /* ⬅ smaller Google icon */
+  height: 18px;
+}
+
+.google-btn:hover {
+  background: #f8fafc;
+}
+
+/* Error */
+.error-text {
+  color: #ef4444;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
