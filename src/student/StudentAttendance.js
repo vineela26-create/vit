@@ -211,9 +211,10 @@ const styles = {
   },
   title: { color: "#1e3a8a", fontWeight: "700" },
   desc: { fontSize: "14px", marginBottom: "20px", color: "#555" },
-  cardRow: { display: "flex", gap: "12px", marginBottom: "30px" },
+  cardRow: { display: "flex", gap: "10px", marginBottom: "40px" },
   card: {
     flex: 1,
+    
     padding: "18px",
     background: "#eef2ff",
     borderRadius: "12px",
